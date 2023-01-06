@@ -1,0 +1,71 @@
+body h1 {
+    padding: 2%!important;
+    font-family: 'Hanken Grotesk', sans-serif, ExtraBold 800 Italic;
+    font-size: 300px;
+    color: black;
+    margin: 0!important;
+    background-color: rgb(253, 253, 253);
+}
+body h2 {
+    
+    padding: 2%!important;
+    font-family:'Tinos';
+    font-size: 190px;
+    color: black;
+    margin: 0!important;
+    background-color: rgb(253, 253, 253);
+}
+
+body h3 {
+    
+    padding: 2%!important;
+    font-family:'Hanken Grotesk';
+    font-size: 300px;
+    color: black;
+    margin: 0!important;
+    background-color: rgb(253, 253, 253);
+}
+
+
+@media screen and (max-width: 992px) {
+    h1{
+       font-size: 58px!important;
+       padding: 15.5%!important;
+    }
+ }
+
+ @media screen and (max-width: 450px) {
+    h1{
+       font-size: 58px!important;
+       padding: 15.5%!important;
+    }
+ }
+
+div.container{
+    max-width: 100%;
+    padding: 0;
+}
+
+footer{
+    background-color: rgb(253, 253, 253)!important;
+    /* border-top: solid 1.5px black!important; */
+}
+
+img{
+    width: 50%;
+    height: 20%;
+    object-fit: cover!important;
+}
+
+#menuimg{
+    width: 100%;
+    height: 624px;
+}
+
+.navbar{
+    font-weight: bold ;
+    font-family:'Hanken Grotesk', sans-serif;
+    font-size: large;
+    background-color: rgb(253, 253, 253);;
+
+}
